@@ -1,0 +1,2472 @@
+[
+  {
+    "order": [
+      {
+        "id": "b11993d5-4737-4562-b6ae-be5d45835e72",
+        "order_status": "Pending",
+        "pizza_type": "Margherita",
+        "quantity": 11508,
+        "created_at": "2023-09-10T20:08:28.090Z",
+        "updated_at": "2023-09-10T23:27:58.172Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "1f825b1e-865b-4436-911d-2c16f5e65cb0",
+        "order_status": "Processing",
+        "pizza_type": "Pepperoni",
+        "quantity": 58971,
+        "created_at": "2023-09-11T00:32:03.537Z",
+        "updated_at": "2023-09-10T08:50:01.669Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "8dbad1cc-7e24-46f6-8850-3ff41cb340e6",
+        "order_status": "Delivered",
+        "pizza_type": "Vegetarian",
+        "quantity": 18091,
+        "created_at": "2023-09-10T10:23:22.878Z",
+        "updated_at": "2023-09-10T11:37:02.967Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "f88958d8-fe18-4cd8-8bfa-93e901a4c042",
+        "order_status": "Cancelled",
+        "pizza_type": "Hawaiian",
+        "quantity": 19876,
+        "created_at": "2023-09-10T09:29:00.394Z",
+        "updated_at": "2023-09-10T17:34:36.039Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "d5216115-253b-4d38-9460-28882839d798",
+        "order_status": "Completed",
+        "pizza_type": "BBQ Chicken",
+        "quantity": 9111,
+        "created_at": "2023-09-10T10:14:53.525Z",
+        "updated_at": "2023-09-11T04:21:10.273Z",
+        "customer_id": "user_entity_pk"
+      }
+    ],
+    "offer": [
+      {
+        "id": "04aee4e8-6a37-43dd-9cdd-56b4fd78cfcf",
+        "offer_name": "Weekend Special",
+        "offer_code": "WEEKEND20",
+        "offer_description": "Get 20% off on weekends",
+        "start_date": "2023-09-10T08:44:27.449Z",
+        "end_date": "2023-09-10T21:12:16.798Z",
+        "created_at": "2023-09-11T04:28:22.887Z",
+        "updated_at": "2023-09-10T14:37:48.003Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c0678945-0bd8-4044-a389-69eb1774671e",
+        "offer_name": "Family Combo",
+        "offer_code": "FAMILYCOMBO",
+        "offer_description": "Combo meal for the whole family",
+        "start_date": "2023-09-10T13:53:18.158Z",
+        "end_date": "2023-09-10T08:33:16.023Z",
+        "created_at": "2023-09-10T20:48:56.391Z",
+        "updated_at": "2023-09-11T00:27:02.124Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5c11c631-866b-4e9b-812a-b3a10425a9bf",
+        "offer_name": "Lunch Deal",
+        "offer_code": "LUNCHDEAL",
+        "offer_description": "Special deal for lunchtime",
+        "start_date": "2023-09-10T23:27:27.855Z",
+        "end_date": "2023-09-10T19:24:28.091Z",
+        "created_at": "2023-09-11T01:48:53.786Z",
+        "updated_at": "2023-09-10T21:22:33.843Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4344a75f-1245-49a5-91d6-7d047d084431",
+        "offer_name": "Student Discount",
+        "offer_code": "STUDENT10",
+        "offer_description": "Discount for students",
+        "start_date": "2023-09-10T18:55:49.822Z",
+        "end_date": "2023-09-11T05:57:34.017Z",
+        "created_at": "2023-09-10T08:01:31.995Z",
+        "updated_at": "2023-09-11T03:37:14.254Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1aa0481c-1898-44a0-98c9-8293bad8572e",
+        "offer_name": "Happy Hour",
+        "offer_code": "HAPPYHOUR",
+        "offer_description": "Enjoy discounted prices during happy hour",
+        "start_date": "2023-09-11T05:47:20.743Z",
+        "end_date": "2023-09-10T22:14:15.655Z",
+        "created_at": "2023-09-11T05:49:28.295Z",
+        "updated_at": "2023-09-10T07:17:15.667Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "meal": [
+      {
+        "id": "0047c34f-a610-435d-8cf4-75822899d619",
+        "meal_name": "Chicken Alfredo",
+        "meal_description": "Creamy pasta with grilled chicken",
+        "price": 64162,
+        "created_at": "2023-09-10T13:16:56.718Z",
+        "updated_at": "2023-09-10T12:33:04.114Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "08eac3ca-0d6e-40ae-9991-f6ed5681f59a",
+        "meal_name": "Beef Stir Fry",
+        "meal_description": "Savory beef stir-fried with vegetables",
+        "price": 72846,
+        "created_at": "2023-09-10T23:54:52.361Z",
+        "updated_at": "2023-09-10T20:42:49.345Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "69b15c6a-636c-4c8e-ab26-8a9946c30768",
+        "meal_name": "Vegetable Curry",
+        "meal_description": "Spicy curry with mixed vegetables",
+        "price": 89961,
+        "created_at": "2023-09-11T05:50:03.202Z",
+        "updated_at": "2023-09-10T10:40:09.849Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c96fd9f2-b349-45f3-8792-c7156978d454",
+        "meal_name": "Salmon Teriyaki",
+        "meal_description": "Grilled salmon glazed with teriyaki sauce",
+        "price": 86868,
+        "created_at": "2023-09-10T23:31:31.749Z",
+        "updated_at": "2023-09-10T09:59:05.213Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "01a6fa2e-94be-475f-ab32-8faaf4291e66",
+        "meal_name": "Pork Chops",
+        "meal_description": "Tender pork chops with a tangy sauce",
+        "price": 46754,
+        "created_at": "2023-09-10T14:46:23.859Z",
+        "updated_at": "2023-09-10T10:33:51.719Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "delivery": [
+      {
+        "id": "96c5fdcb-3d49-4d90-a8e5-b7ba2f405033",
+        "delivery_status": "Out for Delivery",
+        "delivery_address": "123 Main Street",
+        "created_at": "2023-09-10T13:30:26.656Z",
+        "updated_at": "2023-09-11T01:38:12.352Z",
+        "driver_id": "user_entity_pk",
+        "order_id": "b11993d5-4737-4562-b6ae-be5d45835e72"
+      },
+      {
+        "id": "e2e86a86-b059-4ba7-b4ce-fe5b6b214214",
+        "delivery_status": "Delayed",
+        "delivery_address": "456 Elm Avenue",
+        "created_at": "2023-09-10T19:08:04.626Z",
+        "updated_at": "2023-09-11T00:48:56.305Z",
+        "driver_id": "user_entity_pk",
+        "order_id": "b11993d5-4737-4562-b6ae-be5d45835e72"
+      },
+      {
+        "id": "1bfcaf5c-1bbe-4b0f-91b0-57b982fb0209",
+        "delivery_status": "Delivered",
+        "delivery_address": "789 Oak Lane",
+        "created_at": "2023-09-11T02:20:35.734Z",
+        "updated_at": "2023-09-10T08:41:55.818Z",
+        "driver_id": "user_entity_pk",
+        "order_id": "b11993d5-4737-4562-b6ae-be5d45835e72"
+      },
+      {
+        "id": "0a3e9bb3-7111-4737-83ad-fe9881dff145",
+        "delivery_status": "Cancelled",
+        "delivery_address": "321 Maple Drive",
+        "created_at": "2023-09-10T18:19:59.061Z",
+        "updated_at": "2023-09-11T00:31:29.042Z",
+        "driver_id": "user_entity_pk",
+        "order_id": "1f825b1e-865b-4436-911d-2c16f5e65cb0"
+      },
+      {
+        "id": "ceaa536a-c662-4036-8f5d-8eda32bdc48f",
+        "delivery_status": "On Hold",
+        "delivery_address": "987 Pine Road",
+        "created_at": "2023-09-10T17:02:50.488Z",
+        "updated_at": "2023-09-10T19:52:42.860Z",
+        "driver_id": "user_entity_pk",
+        "order_id": "f88958d8-fe18-4cd8-8bfa-93e901a4c042"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "8247d856-1a1f-40a1-9817-4cbf19287c92",
+        "email": "Betty.Fahey68@gmail.com",
+        "firstName": "Gertrude",
+        "lastName": "Kling",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/589.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "993cfc88-9e3d-45be-b8e7-d3d5720dc6c9",
+        "email": "Kamron.Runolfsdottir26@hotmail.com",
+        "firstName": "Wayne",
+        "lastName": "Yost",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/753.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4e938d3c-c29d-4945-bbd4-1d579b6e6776",
+        "email": "Gunner.Durgan23@hotmail.com",
+        "firstName": "Fiona",
+        "lastName": "Bauch",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/413.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "75bd1572-2493-44c7-946d-21e57660a05a",
+        "email": "Tatyana.Block44@hotmail.com",
+        "firstName": "Lurline",
+        "lastName": "Willms",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/488.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7b5accd5-c3c6-4607-bfce-185890eb16e6",
+        "email": "Pasquale_Strosin@hotmail.com",
+        "firstName": "Shany",
+        "lastName": "Kreiger",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5325055",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "order": [
+      {
+        "id": "3d8f9231-7b25-4bcc-8b44-5946d85be971",
+        "order_status": "Pending",
+        "pizza_type": "Margherita",
+        "quantity": 9095,
+        "created_at": "2023-09-10T21:03:36.775Z",
+        "updated_at": "2023-09-11T05:52:07.571Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "f8170142-d9bc-4408-a668-7132fd78f28e",
+        "order_status": "Confirmed",
+        "pizza_type": "Pepperoni",
+        "quantity": 96307,
+        "created_at": "2023-09-10T09:25:52.302Z",
+        "updated_at": "2023-09-10T12:54:04.760Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "d7e91536-e427-4273-b5c1-5c316a003fcb",
+        "order_status": "Preparing",
+        "pizza_type": "Vegetarian",
+        "quantity": 13025,
+        "created_at": "2023-09-10T21:49:53.986Z",
+        "updated_at": "2023-09-10T21:02:05.431Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "a6e161fd-665d-4ed7-9caf-a4a5d2caecd8",
+        "order_status": "Out for Delivery",
+        "pizza_type": "Hawaiian",
+        "quantity": 48016,
+        "created_at": "2023-09-10T08:49:34.487Z",
+        "updated_at": "2023-09-10T08:08:43.788Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "016923f1-5a46-4106-b20c-37cffb5b8234",
+        "order_status": "Delivered",
+        "pizza_type": "BBQ Chicken",
+        "quantity": 93634,
+        "created_at": "2023-09-11T05:20:42.602Z",
+        "updated_at": "2023-09-10T13:06:44.920Z",
+        "customer_id": "user_entity_pk"
+      }
+    ],
+    "offer": [
+      {
+        "id": "0bc5da81-19d6-45f1-a337-e48cb983c1ea",
+        "offer_name": "Weekend Special",
+        "offer_code": "WEEKEND20",
+        "offer_description": "Get 20% off on weekends",
+        "start_date": "2023-09-11T01:57:05.868Z",
+        "end_date": "2023-09-10T07:57:55.977Z",
+        "created_at": "2023-09-10T19:10:40.946Z",
+        "updated_at": "2023-09-11T05:26:04.812Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "43095359-af7a-47c9-8f30-3d0d8c6e45ca",
+        "offer_name": "Family Combo",
+        "offer_code": "FAMILYCOMBO",
+        "offer_description": "Combo offer for the whole family",
+        "start_date": "2023-09-11T04:23:41.810Z",
+        "end_date": "2023-09-10T16:22:36.392Z",
+        "created_at": "2023-09-10T18:18:51.653Z",
+        "updated_at": "2023-09-11T00:40:46.312Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ecd44abf-92a5-4c03-aae5-6e6bcf547992",
+        "offer_name": "Lunch Deal",
+        "offer_code": "LUNCHDEAL",
+        "offer_description": "Special deal for lunchtime",
+        "start_date": "2023-09-10T09:57:54.743Z",
+        "end_date": "2023-09-10T11:52:26.166Z",
+        "created_at": "2023-09-11T01:07:06.661Z",
+        "updated_at": "2023-09-10T17:36:40.915Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "645410d7-e4c8-4ea5-8831-79f728f196ab",
+        "offer_name": "Student Discount",
+        "offer_code": "STUDENT10",
+        "offer_description": "Exclusive discount for students",
+        "start_date": "2023-09-10T13:31:38.188Z",
+        "end_date": "2023-09-11T00:48:16.640Z",
+        "created_at": "2023-09-10T08:01:46.718Z",
+        "updated_at": "2023-09-10T21:57:38.776Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "350aca94-9d7a-4ea5-917a-85517c32a115",
+        "offer_name": "Happy Hour",
+        "offer_code": "HAPPYHOUR",
+        "offer_description": "Enjoy discounted prices during happy hour",
+        "start_date": "2023-09-10T13:55:25.638Z",
+        "end_date": "2023-09-10T14:31:54.583Z",
+        "created_at": "2023-09-11T05:54:56.504Z",
+        "updated_at": "2023-09-10T10:52:34.520Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "meal": [
+      {
+        "id": "e64fcc2e-24fb-420c-9395-0a92ec613621",
+        "meal_name": "Classic Burger",
+        "meal_description": "Juicy beef patty with all the fixings",
+        "price": 40697,
+        "created_at": "2023-09-11T03:28:45.606Z",
+        "updated_at": "2023-09-10T22:47:53.791Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "809d528d-0d95-4ff8-8736-57c9c4a105e7",
+        "meal_name": "Spaghetti Bolognese",
+        "meal_description": "Traditional Italian pasta dish with meat sauce",
+        "price": 31560,
+        "created_at": "2023-09-10T10:46:55.824Z",
+        "updated_at": "2023-09-10T10:51:39.483Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "83bf1490-ad7e-4a2f-9304-1587ba68336e",
+        "meal_name": "Grilled Salmon",
+        "meal_description": "Freshly grilled salmon served with vegetables",
+        "price": 5753,
+        "created_at": "2023-09-11T02:17:06.160Z",
+        "updated_at": "2023-09-10T08:34:56.623Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5fa38d7a-cbd5-4498-a819-2d9bfb7cd2a5",
+        "meal_name": "Chicken Stir-Fry",
+        "meal_description": "Tender chicken and mixed vegetables stir-fried in a savory sauce",
+        "price": 28003,
+        "created_at": "2023-09-11T04:24:25.482Z",
+        "updated_at": "2023-09-10T19:05:13.862Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "268e3ad1-7c26-4c71-90b3-bdc9fe626789",
+        "meal_name": "Vegetable Curry",
+        "meal_description": "Flavorful vegetarian curry with a variety of vegetables",
+        "price": 62988,
+        "created_at": "2023-09-11T03:31:37.471Z",
+        "updated_at": "2023-09-10T19:44:41.000Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "delivery": [
+      {
+        "id": "446ffb23-446c-495f-9cd1-6298744a2083",
+        "delivery_status": "Scheduled",
+        "delivery_address": "123 Main Street",
+        "created_at": "2023-09-10T09:39:11.778Z",
+        "updated_at": "2023-09-11T03:34:21.750Z",
+        "driver_id": "user_entity_pk",
+        "order_id": "016923f1-5a46-4106-b20c-37cffb5b8234"
+      },
+      {
+        "id": "edbac4a0-8113-4b24-8999-58ccf1560e8b",
+        "delivery_status": "In Transit",
+        "delivery_address": "456 Elm Avenue",
+        "created_at": "2023-09-10T16:30:28.479Z",
+        "updated_at": "2023-09-11T03:15:46.865Z",
+        "driver_id": "user_entity_pk",
+        "order_id": "a6e161fd-665d-4ed7-9caf-a4a5d2caecd8"
+      },
+      {
+        "id": "ce633654-be83-4ac0-bc19-ed71a449dc93",
+        "delivery_status": "Delayed",
+        "delivery_address": "789 Oak Lane",
+        "created_at": "2023-09-11T01:30:39.664Z",
+        "updated_at": "2023-09-10T09:58:59.979Z",
+        "driver_id": "user_entity_pk",
+        "order_id": "a6e161fd-665d-4ed7-9caf-a4a5d2caecd8"
+      },
+      {
+        "id": "08a84405-1935-4ce2-b9d3-2fd34d0092e0",
+        "delivery_status": "Delivered",
+        "delivery_address": "321 Pine Road",
+        "created_at": "2023-09-10T12:37:37.390Z",
+        "updated_at": "2023-09-10T12:09:48.050Z",
+        "driver_id": "user_entity_pk",
+        "order_id": "016923f1-5a46-4106-b20c-37cffb5b8234"
+      },
+      {
+        "id": "39480a83-a41d-4510-883f-6d88c83638bf",
+        "delivery_status": "Cancelled",
+        "delivery_address": "987 Maple Court",
+        "created_at": "2023-09-10T13:01:59.375Z",
+        "updated_at": "2023-09-10T08:43:46.611Z",
+        "driver_id": "user_entity_pk",
+        "order_id": "d7e91536-e427-4273-b5c1-5c316a003fcb"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "e0986dbc-5fcd-45c0-af4b-ed2c5c836037",
+        "email": "Magdalen91@gmail.com",
+        "firstName": "Destini",
+        "lastName": "Stroman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9896517",
+        "tenantId": null
+      },
+      {
+        "reference": "55779211-0fa0-44d5-bd89-25d620cc59fc",
+        "email": "Jaqueline_Kovacek@yahoo.com",
+        "firstName": "Coy",
+        "lastName": "Hand",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/840.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "bea4b58d-72ba-48c8-beb8-8b09f8786ac2",
+        "email": "Grace.Toy@hotmail.com",
+        "firstName": "Chelsie",
+        "lastName": "Torphy",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/90769365",
+        "tenantId": null
+      },
+      {
+        "reference": "956f08e1-529a-49a3-b15a-341ca0e3191f",
+        "email": "Bernita_Steuber52@yahoo.com",
+        "firstName": "Houston",
+        "lastName": "Schamberger",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/8.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ce5eb64f-8d43-496b-81db-ceab25a2881e",
+        "email": "Curt_Ledner80@gmail.com",
+        "firstName": "Kraig",
+        "lastName": "Emmerich",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/36504240",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "order": [
+      {
+        "id": "def98ace-a6f0-499c-b1f7-6874c5bf2fce",
+        "order_status": "Pending",
+        "pizza_type": "Margherita",
+        "quantity": 97307,
+        "created_at": "2023-09-10T22:23:22.590Z",
+        "updated_at": "2023-09-10T17:19:09.305Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "cf3a14a3-696d-4106-b931-02eb19ceeb41",
+        "order_status": "In Progress",
+        "pizza_type": "Pepperoni",
+        "quantity": 36496,
+        "created_at": "2023-09-10T11:33:53.179Z",
+        "updated_at": "2023-09-10T15:03:23.247Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "7bbe7814-eea3-4f18-a7a6-cac4abaaed74",
+        "order_status": "Ready for Pickup",
+        "pizza_type": "Hawaiian",
+        "quantity": 97905,
+        "created_at": "2023-09-10T10:15:32.489Z",
+        "updated_at": "2023-09-11T02:53:10.207Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "00ce0547-57cc-4aef-b474-a073d1834ac1",
+        "order_status": "Out for Delivery",
+        "pizza_type": "Vegetarian",
+        "quantity": 61144,
+        "created_at": "2023-09-11T04:11:42.325Z",
+        "updated_at": "2023-09-10T18:47:07.866Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "0c9b7f97-6f9d-40ff-a3a3-dc2b34d5e719",
+        "order_status": "Delivered",
+        "pizza_type": "BBQ Chicken",
+        "quantity": 24235,
+        "created_at": "2023-09-10T07:01:20.464Z",
+        "updated_at": "2023-09-10T19:43:43.494Z",
+        "customer_id": "user_entity_pk"
+      }
+    ],
+    "offer": [
+      {
+        "id": "13a0c778-944d-4164-9eab-491d0d9376f3",
+        "offer_name": "Weekend Special",
+        "offer_code": "WEEKEND25",
+        "offer_description": "25% off on weekends",
+        "start_date": "2023-09-10T10:46:14.047Z",
+        "end_date": "2023-09-10T17:00:29.092Z",
+        "created_at": "2023-09-10T18:25:41.559Z",
+        "updated_at": "2023-09-10T15:37:13.974Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d0ef363e-cdcb-4a60-9e16-8bc1be118f28",
+        "offer_name": "Family Combo",
+        "offer_code": "FAMILYCOMBO",
+        "offer_description": "Combo meal for the whole family",
+        "start_date": "2023-09-10T07:09:45.528Z",
+        "end_date": "2023-09-10T08:38:41.853Z",
+        "created_at": "2023-09-11T04:39:32.005Z",
+        "updated_at": "2023-09-10T22:52:21.840Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c58ceb12-00f7-4e9b-9f84-b2772ee6f1b9",
+        "offer_name": "Lunch Deal",
+        "offer_code": "LUNCHDEAL10",
+        "offer_description": "Special lunch offer",
+        "start_date": "2023-09-10T10:35:14.196Z",
+        "end_date": "2023-09-11T04:59:04.219Z",
+        "created_at": "2023-09-10T09:09:28.390Z",
+        "updated_at": "2023-09-10T07:27:58.564Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f2296f62-5b7b-4455-993c-2dbe5ef7e506",
+        "offer_name": "Student Discount",
+        "offer_code": "STUDENTDISC",
+        "offer_description": "Discount for students",
+        "start_date": "2023-09-10T11:53:00.442Z",
+        "end_date": "2023-09-10T14:09:03.588Z",
+        "created_at": "2023-09-10T21:49:56.813Z",
+        "updated_at": "2023-09-10T21:50:27.968Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9c30ba28-9834-409b-8614-90ce02e4ade1",
+        "offer_name": "Happy Hour",
+        "offer_code": "HAPPYHOUR50",
+        "offer_description": "50% off during happy hour",
+        "start_date": "2023-09-10T06:39:14.154Z",
+        "end_date": "2023-09-10T06:37:16.283Z",
+        "created_at": "2023-09-11T02:13:34.750Z",
+        "updated_at": "2023-09-10T06:31:55.946Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "meal": [
+      {
+        "id": "d564a57d-f671-4802-833d-ce65cecea53f",
+        "meal_name": "Classic Burger",
+        "meal_description": "Juicy beef patty with all the fixings",
+        "price": 39877,
+        "created_at": "2023-09-10T12:18:49.267Z",
+        "updated_at": "2023-09-11T01:07:18.091Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b24dd98e-6eb3-41ae-ab64-a2fcd439a1b0",
+        "meal_name": "Spaghetti Bolognese",
+        "meal_description": "Traditional Italian pasta dish",
+        "price": 57173,
+        "created_at": "2023-09-11T03:34:43.380Z",
+        "updated_at": "2023-09-10T13:18:56.132Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "19939857-4396-4b26-ad97-8871476214c5",
+        "meal_name": "Grilled Salmon",
+        "meal_description": "Freshly grilled salmon fillet",
+        "price": 64429,
+        "created_at": "2023-09-10T18:56:37.042Z",
+        "updated_at": "2023-09-10T19:32:12.552Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3ff6776e-b176-447e-904a-820d2849d2ae",
+        "meal_name": "Vegetable Stir-Fry",
+        "meal_description": "Colorful mix of veggies in a savory sauce",
+        "price": 94335,
+        "created_at": "2023-09-11T03:18:16.907Z",
+        "updated_at": "2023-09-11T05:40:54.610Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "682b30fa-f84d-4613-932e-df9d05fd7e17",
+        "meal_name": "Chicken Caesar Salad",
+        "meal_description": "Crisp romaine lettuce with grilled chicken",
+        "price": 71565,
+        "created_at": "2023-09-10T20:32:42.920Z",
+        "updated_at": "2023-09-10T07:10:41.768Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "delivery": [
+      {
+        "id": "6ba93c0b-7ad4-480f-8d3d-9fb3e484a906",
+        "delivery_status": "Scheduled",
+        "delivery_address": "123 Main St",
+        "created_at": "2023-09-10T16:55:33.080Z",
+        "updated_at": "2023-09-10T10:49:31.336Z",
+        "driver_id": "user_entity_pk",
+        "order_id": "7bbe7814-eea3-4f18-a7a6-cac4abaaed74"
+      },
+      {
+        "id": "cf22f0c3-72d5-4d1e-b5af-7f5c89982429",
+        "delivery_status": "In Transit",
+        "delivery_address": "456 Elm St",
+        "created_at": "2023-09-10T16:22:04.725Z",
+        "updated_at": "2023-09-11T01:12:38.864Z",
+        "driver_id": "user_entity_pk",
+        "order_id": "0c9b7f97-6f9d-40ff-a3a3-dc2b34d5e719"
+      },
+      {
+        "id": "04d98624-6956-49cb-995c-6f240d391a31",
+        "delivery_status": "Delayed",
+        "delivery_address": "789 Oak St",
+        "created_at": "2023-09-10T21:39:41.468Z",
+        "updated_at": "2023-09-10T11:06:03.974Z",
+        "driver_id": "user_entity_pk",
+        "order_id": "0c9b7f97-6f9d-40ff-a3a3-dc2b34d5e719"
+      },
+      {
+        "id": "d3925f3d-d1bc-445f-a82f-21af4219cdeb",
+        "delivery_status": "Out for Delivery",
+        "delivery_address": "321 Pine St",
+        "created_at": "2023-09-11T03:09:44.691Z",
+        "updated_at": "2023-09-11T03:16:50.944Z",
+        "driver_id": "user_entity_pk",
+        "order_id": "7bbe7814-eea3-4f18-a7a6-cac4abaaed74"
+      },
+      {
+        "id": "8100198f-2074-43f0-8044-3a5e72d88501",
+        "delivery_status": "Delivered",
+        "delivery_address": "654 Maple St",
+        "created_at": "2023-09-10T10:51:26.502Z",
+        "updated_at": "2023-09-10T08:08:25.917Z",
+        "driver_id": "user_entity_pk",
+        "order_id": "cf3a14a3-696d-4106-b931-02eb19ceeb41"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "542a1516-5e6b-4eb4-9b46-786e000c7e89",
+        "email": "Karen_Connelly95@yahoo.com",
+        "firstName": "Dorothea",
+        "lastName": "Bailey",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/975.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b8cac7d0-d85f-4a05-bcfa-b8f9b0fdf642",
+        "email": "Elbert.Ullrich19@gmail.com",
+        "firstName": "Llewellyn",
+        "lastName": "Daugherty",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/27480531",
+        "tenantId": null
+      },
+      {
+        "reference": "7702290a-f32b-471a-9c9c-5ff8fa9db878",
+        "email": "Kade_McLaughlin59@gmail.com",
+        "firstName": "Ward",
+        "lastName": "Feeney-Toy",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/75893010",
+        "tenantId": null
+      },
+      {
+        "reference": "3e2699da-1506-460d-93e8-b3c34ab80662",
+        "email": "Vladimir_Adams@hotmail.com",
+        "firstName": "Geo",
+        "lastName": "Olson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1130.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f24548bb-eefa-4590-aac9-4aa756da763d",
+        "email": "Loy_Ebert-Collins@hotmail.com",
+        "firstName": "Michel",
+        "lastName": "Erdman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19685852",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "order": [
+      {
+        "id": "46ff53f5-4f85-4ebf-bd68-2890acc18cd5",
+        "order_status": "Pending",
+        "pizza_type": "Margherita",
+        "quantity": 97777,
+        "created_at": "2023-09-10T07:12:57.896Z",
+        "updated_at": "2023-09-11T02:49:46.334Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "56952d6a-fd41-4100-ae9b-c2e12495bdd2",
+        "order_status": "Processing",
+        "pizza_type": "Pepperoni",
+        "quantity": 84529,
+        "created_at": "2023-09-10T21:57:14.729Z",
+        "updated_at": "2023-09-11T04:42:40.572Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "f71b31d8-74a2-40aa-8375-9a4eb2106276",
+        "order_status": "Out for Delivery",
+        "pizza_type": "Hawaiian",
+        "quantity": 70295,
+        "created_at": "2023-09-11T06:15:56.294Z",
+        "updated_at": "2023-09-10T21:39:21.541Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "c75281eb-f804-4960-806d-f08049ffe2c7",
+        "order_status": "Delivered",
+        "pizza_type": "Vegetarian",
+        "quantity": 70282,
+        "created_at": "2023-09-10T09:53:41.257Z",
+        "updated_at": "2023-09-10T06:48:43.231Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "930c8597-847b-46c0-bcbe-5bc0e1598b39",
+        "order_status": "Cancelled",
+        "pizza_type": "Supreme",
+        "quantity": 46839,
+        "created_at": "2023-09-10T10:48:25.386Z",
+        "updated_at": "2023-09-10T15:29:51.841Z",
+        "customer_id": "user_entity_pk"
+      }
+    ],
+    "offer": [
+      {
+        "id": "6f80a9e2-2ea0-44eb-9d04-913d49ff938e",
+        "offer_name": "Weekend Special",
+        "offer_code": "WEEKEND20",
+        "offer_description": "Get 20% off on weekends",
+        "start_date": "2023-09-10T15:57:37.709Z",
+        "end_date": "2023-09-10T23:46:39.297Z",
+        "created_at": "2023-09-10T10:39:22.379Z",
+        "updated_at": "2023-09-11T00:46:38.765Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7edb815b-bec2-4da4-9b10-8bedc5ae5ab4",
+        "offer_name": "Lunch Combo",
+        "offer_code": "LUNCHCOMBO10",
+        "offer_description": "Combo meal for lunch at discounted price",
+        "start_date": "2023-09-10T17:25:22.864Z",
+        "end_date": "2023-09-11T00:41:56.293Z",
+        "created_at": "2023-09-10T06:33:40.288Z",
+        "updated_at": "2023-09-10T23:33:51.825Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "280bb824-88b7-4c88-92ae-75ca1cebf0d5",
+        "offer_name": "Family Deal",
+        "offer_code": "FAMILYDEAL15",
+        "offer_description": "Special deal for families",
+        "start_date": "2023-09-10T21:59:57.398Z",
+        "end_date": "2023-09-10T10:32:06.015Z",
+        "created_at": "2023-09-10T07:32:23.823Z",
+        "updated_at": "2023-09-10T09:56:11.642Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "96c81835-381e-4d8d-814b-40525f92ef90",
+        "offer_name": "Student Discount",
+        "offer_code": "STUDENT20",
+        "offer_description": "Exclusive discount for students",
+        "start_date": "2023-09-10T20:55:30.459Z",
+        "end_date": "2023-09-10T13:24:15.691Z",
+        "created_at": "2023-09-10T18:57:27.375Z",
+        "updated_at": "2023-09-10T17:52:49.259Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fd2c2c99-c50d-4f74-965b-1da94111b90a",
+        "offer_name": "Happy Hour",
+        "offer_code": "HAPPYHOUR50",
+        "offer_description": "50% off during happy hour",
+        "start_date": "2023-09-10T22:57:18.419Z",
+        "end_date": "2023-09-10T09:33:53.222Z",
+        "created_at": "2023-09-11T05:43:39.314Z",
+        "updated_at": "2023-09-11T04:36:50.048Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "meal": [
+      {
+        "id": "03b50cce-36b5-4a86-8bb1-44b3d8d10d57",
+        "meal_name": "Chicken Alfredo",
+        "meal_description": "Creamy pasta with grilled chicken",
+        "price": 97950,
+        "created_at": "2023-09-10T09:22:05.620Z",
+        "updated_at": "2023-09-10T16:36:05.651Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c596250c-1b9b-49f3-905f-74a7c6656dd8",
+        "meal_name": "Beef Stir-Fry",
+        "meal_description": "Savory beef with stir-fried vegetables",
+        "price": 86767,
+        "created_at": "2023-09-10T09:33:36.128Z",
+        "updated_at": "2023-09-10T14:22:58.051Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fec44a9e-efa6-4f44-8ecc-ef8b39676964",
+        "meal_name": "Vegetable Curry",
+        "meal_description": "Spicy curry with fresh vegetables",
+        "price": 44154,
+        "created_at": "2023-09-11T03:53:42.112Z",
+        "updated_at": "2023-09-11T00:42:08.691Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1dce324b-c583-40a0-be1e-7cd6e4f48159",
+        "meal_name": "Salmon Teriyaki",
+        "meal_description": "Grilled salmon with teriyaki sauce",
+        "price": 25856,
+        "created_at": "2023-09-11T03:57:39.491Z",
+        "updated_at": "2023-09-10T11:59:32.150Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b42b6564-7160-4cd3-b435-20f91e494f08",
+        "meal_name": "Pork Chops",
+        "meal_description": "Juicy pork chops with a side of mashed potatoes",
+        "price": 56705,
+        "created_at": "2023-09-10T21:52:36.001Z",
+        "updated_at": "2023-09-10T08:35:33.237Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "delivery": [
+      {
+        "id": "5e066090-3817-4c4c-894e-057f6942bc34",
+        "delivery_status": "On the way",
+        "delivery_address": "123 Main St, Cityville",
+        "created_at": "2023-09-10T06:47:23.141Z",
+        "updated_at": "2023-09-10T06:49:05.069Z",
+        "driver_id": "user_entity_pk",
+        "order_id": "930c8597-847b-46c0-bcbe-5bc0e1598b39"
+      },
+      {
+        "id": "f15aecfd-03e9-48f2-b3f2-a7f533de66c7",
+        "delivery_status": "Delayed",
+        "delivery_address": "456 Elm St, Townsville",
+        "created_at": "2023-09-10T12:45:10.012Z",
+        "updated_at": "2023-09-10T23:34:02.277Z",
+        "driver_id": "user_entity_pk",
+        "order_id": "930c8597-847b-46c0-bcbe-5bc0e1598b39"
+      },
+      {
+        "id": "1793a4e3-c612-47c9-a654-2ffd2a5811a1",
+        "delivery_status": "Delivered",
+        "delivery_address": "789 Oak St, Villagetown",
+        "created_at": "2023-09-10T10:09:57.590Z",
+        "updated_at": "2023-09-10T06:19:41.615Z",
+        "driver_id": "user_entity_pk",
+        "order_id": "56952d6a-fd41-4100-ae9b-c2e12495bdd2"
+      },
+      {
+        "id": "d28046a4-d81d-4b45-91c0-4d4e149977ce",
+        "delivery_status": "Out for delivery",
+        "delivery_address": "321 Pine St, Hamletville",
+        "created_at": "2023-09-10T23:53:21.701Z",
+        "updated_at": "2023-09-10T07:35:08.753Z",
+        "driver_id": "user_entity_pk",
+        "order_id": "46ff53f5-4f85-4ebf-bd68-2890acc18cd5"
+      },
+      {
+        "id": "95d9cbfc-8a71-4811-9109-689b335d6aed",
+        "delivery_status": "Cancelled",
+        "delivery_address": "654 Maple St, Countryside",
+        "created_at": "2023-09-10T10:21:59.831Z",
+        "updated_at": "2023-09-10T10:15:57.758Z",
+        "driver_id": "user_entity_pk",
+        "order_id": "56952d6a-fd41-4100-ae9b-c2e12495bdd2"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "9a0c828f-f2c2-43b9-ac02-d284ed108cba",
+        "email": "Freeda_Russel@hotmail.com",
+        "firstName": "Roxane",
+        "lastName": "Rodriguez",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/133.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d6a50b50-873e-4eae-9037-710c28eadbc2",
+        "email": "Antonietta31@yahoo.com",
+        "firstName": "Henriette",
+        "lastName": "Gislason",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8199549",
+        "tenantId": null
+      },
+      {
+        "reference": "b236a196-2496-44bf-98db-23cbee782574",
+        "email": "Owen_Ebert31@gmail.com",
+        "firstName": "Lloyd",
+        "lastName": "Schmidt",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/139.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b31bdbdb-7cfc-493c-b220-416e9228b452",
+        "email": "Caden.Lehner@hotmail.com",
+        "firstName": "Megane",
+        "lastName": "Torp",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/74.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d5946bf4-7a6b-49ab-9892-635fcdcaf80f",
+        "email": "Pierre_Cremin@hotmail.com",
+        "firstName": "Stanton",
+        "lastName": "Maggio",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/36522839",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "order": [
+      {
+        "id": "679eab49-e787-4f0d-adc6-4d3e59085310",
+        "order_status": "Pending",
+        "pizza_type": "Margherita",
+        "quantity": 52528,
+        "created_at": "2023-09-11T02:03:08.011Z",
+        "updated_at": "2023-09-10T20:31:04.302Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "057e9faf-ebc1-4cd3-9aa7-f0e8aab24725",
+        "order_status": "In Progress",
+        "pizza_type": "Pepperoni",
+        "quantity": 96692,
+        "created_at": "2023-09-10T12:57:56.609Z",
+        "updated_at": "2023-09-11T02:37:25.851Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "71939bd9-9b09-45e1-ad51-c465b734faca",
+        "order_status": "Out for Delivery",
+        "pizza_type": "Vegetarian",
+        "quantity": 57438,
+        "created_at": "2023-09-11T03:13:12.391Z",
+        "updated_at": "2023-09-10T07:33:40.405Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "e83546b6-22ee-4b36-bcc1-50c80a97806a",
+        "order_status": "Delivered",
+        "pizza_type": "Hawaiian",
+        "quantity": 17267,
+        "created_at": "2023-09-10T11:53:05.705Z",
+        "updated_at": "2023-09-10T22:08:43.975Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "2e7fd206-86d3-4840-a367-af6c88299f9d",
+        "order_status": "Cancelled",
+        "pizza_type": "BBQ Chicken",
+        "quantity": 61565,
+        "created_at": "2023-09-11T04:49:57.291Z",
+        "updated_at": "2023-09-11T06:07:29.608Z",
+        "customer_id": "user_entity_pk"
+      }
+    ],
+    "offer": [
+      {
+        "id": "31f2d826-3c1b-47a7-a3e8-d02ba212f726",
+        "offer_name": "Weekend Special",
+        "offer_code": "WEEKEND25",
+        "offer_description": "25% off on all orders this weekend",
+        "start_date": "2023-09-10T16:19:28.153Z",
+        "end_date": "2023-09-10T17:29:30.317Z",
+        "created_at": "2023-09-10T18:52:00.651Z",
+        "updated_at": "2023-09-10T19:03:40.490Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "89b6e6e3-947b-491c-9847-c2929f8e4877",
+        "offer_name": "Family Combo",
+        "offer_code": "FAMILYCOMBO",
+        "offer_description": "Combo offer for the whole family",
+        "start_date": "2023-09-10T17:39:11.635Z",
+        "end_date": "2023-09-10T13:14:43.920Z",
+        "created_at": "2023-09-10T21:10:01.150Z",
+        "updated_at": "2023-09-10T10:59:01.206Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ac19f752-734a-4420-bbb5-d174c1cca2c0",
+        "offer_name": "Lunch Deal",
+        "offer_code": "LUNCHDEAL50",
+        "offer_description": "50% off on lunchtime orders",
+        "start_date": "2023-09-11T01:49:58.528Z",
+        "end_date": "2023-09-10T11:18:23.987Z",
+        "created_at": "2023-09-10T12:43:31.695Z",
+        "updated_at": "2023-09-10T23:22:35.500Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "68e59aef-e76e-4f45-b892-818713199e6b",
+        "offer_name": "Student Discount",
+        "offer_code": "STUDENT10",
+        "offer_description": "Exclusive discount for students",
+        "start_date": "2023-09-11T01:50:24.543Z",
+        "end_date": "2023-09-11T03:22:47.955Z",
+        "created_at": "2023-09-10T16:17:07.709Z",
+        "updated_at": "2023-09-10T11:36:05.131Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1eac230f-dd88-4fb0-8da6-c962468149bc",
+        "offer_name": "Happy Hour",
+        "offer_code": "HAPPYHOUR20",
+        "offer_description": "20% off during happy hour",
+        "start_date": "2023-09-10T20:50:48.154Z",
+        "end_date": "2023-09-10T12:35:21.165Z",
+        "created_at": "2023-09-11T02:56:42.506Z",
+        "updated_at": "2023-09-11T00:44:09.168Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "meal": [
+      {
+        "id": "a71a5539-384e-4fef-922c-39ff19b092eb",
+        "meal_name": "Grilled Salmon",
+        "meal_description": "Freshly grilled salmon with a side of vegetables",
+        "price": 32218,
+        "created_at": "2023-09-10T08:01:17.281Z",
+        "updated_at": "2023-09-11T01:03:40.406Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "720d36c4-4a59-416f-9320-e96f250521eb",
+        "meal_name": "Chicken Alfredo",
+        "meal_description": "Creamy chicken alfredo pasta",
+        "price": 31753,
+        "created_at": "2023-09-10T18:52:03.855Z",
+        "updated_at": "2023-09-11T04:22:02.934Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b7248f14-c5d4-4937-9c37-d1f7522223c3",
+        "meal_name": "Vegetable Stir Fry",
+        "meal_description": "Stir-fried vegetables with a tangy sauce",
+        "price": 83787,
+        "created_at": "2023-09-10T20:45:13.044Z",
+        "updated_at": "2023-09-10T10:11:17.972Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "872d1e64-5385-4009-aa3d-aceae3b72a3a",
+        "meal_name": "Beef Tacos",
+        "meal_description": "Tacos filled with seasoned beef and toppings",
+        "price": 30557,
+        "created_at": "2023-09-10T21:54:05.724Z",
+        "updated_at": "2023-09-10T15:38:28.348Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "38b3152e-1449-4b20-b567-b8cc363eae7f",
+        "meal_name": "Shrimp Scampi",
+        "meal_description": "Garlic butter shrimp served over pasta",
+        "price": 27415,
+        "created_at": "2023-09-10T15:12:24.130Z",
+        "updated_at": "2023-09-11T03:46:40.008Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "delivery": [
+      {
+        "id": "b52be8a5-f584-4513-871e-d2cb899db65a",
+        "delivery_status": "On the way",
+        "delivery_address": "123 Main St, Anytown, USA",
+        "created_at": "2023-09-10T21:05:48.570Z",
+        "updated_at": "2023-09-11T05:14:36.292Z",
+        "driver_id": "user_entity_pk",
+        "order_id": "057e9faf-ebc1-4cd3-9aa7-f0e8aab24725"
+      },
+      {
+        "id": "39f96f95-0d94-47e1-8e1e-a12ac30c1fe1",
+        "delivery_status": "Delayed",
+        "delivery_address": "456 Elm St, Another City, USA",
+        "created_at": "2023-09-10T16:06:32.466Z",
+        "updated_at": "2023-09-10T14:08:24.542Z",
+        "driver_id": "user_entity_pk",
+        "order_id": "057e9faf-ebc1-4cd3-9aa7-f0e8aab24725"
+      },
+      {
+        "id": "d9d8353f-6f14-4863-bf47-fefb08780c3c",
+        "delivery_status": "Delivered",
+        "delivery_address": "789 Oak St, Different Town, USA",
+        "created_at": "2023-09-10T16:17:39.047Z",
+        "updated_at": "2023-09-10T21:06:24.416Z",
+        "driver_id": "user_entity_pk",
+        "order_id": "057e9faf-ebc1-4cd3-9aa7-f0e8aab24725"
+      },
+      {
+        "id": "632b63f4-6c10-4d9f-848b-a9703db5100c",
+        "delivery_status": "Out for delivery",
+        "delivery_address": "321 Pine St, Somewhere, USA",
+        "created_at": "2023-09-11T03:34:16.689Z",
+        "updated_at": "2023-09-10T08:10:36.980Z",
+        "driver_id": "user_entity_pk",
+        "order_id": "2e7fd206-86d3-4840-a367-af6c88299f9d"
+      },
+      {
+        "id": "d9545cb5-dd03-4e64-ac01-ae47266d3fdf",
+        "delivery_status": "Cancelled",
+        "delivery_address": "654 Maple St, Anywhere, USA",
+        "created_at": "2023-09-10T07:57:28.777Z",
+        "updated_at": "2023-09-10T19:09:04.205Z",
+        "driver_id": "user_entity_pk",
+        "order_id": "2e7fd206-86d3-4840-a367-af6c88299f9d"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "8f48d1de-57a9-40bd-beb3-cccacfe4e8d7",
+        "email": "Francisco4@gmail.com",
+        "firstName": "Ramiro",
+        "lastName": "Abbott",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1138.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a777db7a-95a3-4733-963f-00ee60f138af",
+        "email": "Kaylin_Wisozk@hotmail.com",
+        "firstName": "Tom",
+        "lastName": "Erdman",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/427.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8d021bdd-8ad2-4edd-ba13-37b428911f2d",
+        "email": "Carolyne66@gmail.com",
+        "firstName": "Pasquale",
+        "lastName": "Douglas",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/26.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "cf2e8b30-f815-40d9-9661-6117e23cbbe9",
+        "email": "Charles.Spencer-Wolf84@hotmail.com",
+        "firstName": "Gino",
+        "lastName": "Swaniawski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/93057529",
+        "tenantId": null
+      },
+      {
+        "reference": "9b1de84d-418b-45ec-a482-08f0426f1d84",
+        "email": "Colby_Koch@gmail.com",
+        "firstName": "Dorcas",
+        "lastName": "Larson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/15303076",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "order": [
+      {
+        "id": "4ab646ee-3dc8-4e82-bc6a-c8e5655d6613",
+        "order_status": "Pending",
+        "pizza_type": "Margherita",
+        "quantity": 54159,
+        "created_at": "2023-09-11T01:13:56.939Z",
+        "updated_at": "2023-09-11T05:38:16.787Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "08cec629-56e0-41ff-9b8a-0badb3dbac17",
+        "order_status": "Processing",
+        "pizza_type": "Pepperoni",
+        "quantity": 72921,
+        "created_at": "2023-09-10T21:15:32.615Z",
+        "updated_at": "2023-09-10T22:46:20.881Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "db8ba6c7-c76a-4b19-aff9-a3ec20e539e9",
+        "order_status": "Out for Delivery",
+        "pizza_type": "Vegetarian",
+        "quantity": 19195,
+        "created_at": "2023-09-10T10:48:01.937Z",
+        "updated_at": "2023-09-10T06:59:07.161Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "b63c723d-cc25-4c9d-a0e4-86a152bcb1e8",
+        "order_status": "Delivered",
+        "pizza_type": "Hawaiian",
+        "quantity": 6275,
+        "created_at": "2023-09-10T22:06:29.492Z",
+        "updated_at": "2023-09-10T09:27:58.018Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "c25bb4d6-4f6f-4f67-95a9-1490194449fa",
+        "order_status": "Cancelled",
+        "pizza_type": "BBQ Chicken",
+        "quantity": 30369,
+        "created_at": "2023-09-11T00:31:08.787Z",
+        "updated_at": "2023-09-10T22:01:57.819Z",
+        "customer_id": "user_entity_pk"
+      }
+    ],
+    "offer": [
+      {
+        "id": "cbfae454-8c13-414f-b337-571011b36ace",
+        "offer_name": "Weekend Special",
+        "offer_code": "WEEKEND20",
+        "offer_description": "Get 20% off on all orders this weekend",
+        "start_date": "2023-09-11T04:39:21.567Z",
+        "end_date": "2023-09-10T10:50:55.495Z",
+        "created_at": "2023-09-10T18:18:17.969Z",
+        "updated_at": "2023-09-10T21:05:17.605Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b324bb46-58ce-47d4-afae-c66a99dc29d9",
+        "offer_name": "Family Combo",
+        "offer_code": "FAMILYCOMBO",
+        "offer_description": "Enjoy a combo meal for the whole family at a discounted price",
+        "start_date": "2023-09-10T23:02:55.426Z",
+        "end_date": "2023-09-11T01:18:30.016Z",
+        "created_at": "2023-09-10T07:38:11.815Z",
+        "updated_at": "2023-09-10T08:39:07.016Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e56626e8-111f-45c9-919c-e7fdd2429bee",
+        "offer_name": "Lunch Deal",
+        "offer_code": "LUNCHDEAL",
+        "offer_description": "Grab a quick and affordable lunch with our special deal",
+        "start_date": "2023-09-10T08:52:44.868Z",
+        "end_date": "2023-09-10T21:57:19.310Z",
+        "created_at": "2023-09-10T12:21:39.366Z",
+        "updated_at": "2023-09-10T08:24:18.094Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ca7b9c51-3984-45b2-a0b6-44d68be6759e",
+        "offer_name": "Student Discount",
+        "offer_code": "STUDENT10",
+        "offer_description": "Students get 10% off on all orders with valid ID",
+        "start_date": "2023-09-10T16:01:54.011Z",
+        "end_date": "2023-09-10T14:42:29.634Z",
+        "created_at": "2023-09-11T00:48:04.653Z",
+        "updated_at": "2023-09-10T06:20:58.287Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a886633f-876a-4c81-9822-9ba6edf8b5f2",
+        "offer_name": "Happy Hour",
+        "offer_code": "HAPPYHOUR",
+        "offer_description": "Happy hour discounts on selected pizzas and drinks",
+        "start_date": "2023-09-11T05:11:37.834Z",
+        "end_date": "2023-09-10T11:41:52.550Z",
+        "created_at": "2023-09-11T01:41:31.701Z",
+        "updated_at": "2023-09-11T04:46:44.826Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "meal": [
+      {
+        "id": "9aa503a5-a79d-40d9-abd4-bb1be9a80669",
+        "meal_name": "Chicken Alfredo Pasta",
+        "meal_description": "Creamy pasta with tender chicken and parmesan cheese",
+        "price": 41493,
+        "created_at": "2023-09-11T00:50:28.559Z",
+        "updated_at": "2023-09-10T09:08:40.106Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a5b20b68-21e6-411f-a919-df6c82a0ad2b",
+        "meal_name": "Mushroom Risotto",
+        "meal_description": "Rich and flavorful risotto with sautéed mushrooms",
+        "price": 77291,
+        "created_at": "2023-09-10T17:47:37.045Z",
+        "updated_at": "2023-09-11T03:26:31.063Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7988ee6d-fb4c-456a-90e5-a8061d680267",
+        "meal_name": "Grilled Salmon with Lemon Butter Sauce",
+        "meal_description": "Fresh salmon fillet grilled to perfection and served with a tangy lemon butter sauce",
+        "price": 17294,
+        "created_at": "2023-09-11T03:34:04.853Z",
+        "updated_at": "2023-09-10T13:10:08.971Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6bed41ed-562e-47dc-a419-842dadf96a7b",
+        "meal_name": "Beef Stir-Fry with Vegetables",
+        "meal_description": "Tender beef strips stir-fried with colorful vegetables in a savory sauce",
+        "price": 71816,
+        "created_at": "2023-09-10T20:42:54.688Z",
+        "updated_at": "2023-09-11T02:54:39.855Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "810d78d1-eb5f-4ccd-a163-0b3d3cca455b",
+        "meal_name": "Vegetable Lasagna",
+        "meal_description": "Layers of pasta, vegetables, and cheese baked to perfection",
+        "price": 33399,
+        "created_at": "2023-09-11T04:47:55.911Z",
+        "updated_at": "2023-09-10T14:51:19.069Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "delivery": [
+      {
+        "id": "da3766ec-019c-444e-8652-a3c637fc780a",
+        "delivery_status": "On the way",
+        "delivery_address": "123 Main Street",
+        "created_at": "2023-09-10T09:16:49.880Z",
+        "updated_at": "2023-09-10T07:34:03.376Z",
+        "driver_id": "user_entity_pk",
+        "order_id": "db8ba6c7-c76a-4b19-aff9-a3ec20e539e9"
+      },
+      {
+        "id": "0f9335e7-8f14-43a4-9272-5e294c2c7133",
+        "delivery_status": "Delayed",
+        "delivery_address": "456 Elm Avenue",
+        "created_at": "2023-09-10T18:39:42.658Z",
+        "updated_at": "2023-09-10T21:58:32.526Z",
+        "driver_id": "user_entity_pk",
+        "order_id": "08cec629-56e0-41ff-9b8a-0badb3dbac17"
+      },
+      {
+        "id": "cdc93939-7373-42af-8d06-79d63f9f1bf5",
+        "delivery_status": "Delivered",
+        "delivery_address": "789 Oak Drive",
+        "created_at": "2023-09-10T06:19:14.319Z",
+        "updated_at": "2023-09-10T07:54:23.395Z",
+        "driver_id": "user_entity_pk",
+        "order_id": "4ab646ee-3dc8-4e82-bc6a-c8e5655d6613"
+      },
+      {
+        "id": "f1552b5e-2bca-4afe-bfdb-0a04c831f309",
+        "delivery_status": "Out for delivery",
+        "delivery_address": "321 Pine Lane",
+        "created_at": "2023-09-10T23:50:22.285Z",
+        "updated_at": "2023-09-10T10:08:15.978Z",
+        "driver_id": "user_entity_pk",
+        "order_id": "c25bb4d6-4f6f-4f67-95a9-1490194449fa"
+      },
+      {
+        "id": "cc010c91-b9f8-4d22-b987-79406c5f0b9f",
+        "delivery_status": "Cancelled",
+        "delivery_address": "987 Maple Road",
+        "created_at": "2023-09-10T22:55:36.640Z",
+        "updated_at": "2023-09-10T17:50:31.220Z",
+        "driver_id": "user_entity_pk",
+        "order_id": "c25bb4d6-4f6f-4f67-95a9-1490194449fa"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "43a32bc1-748a-458d-aaef-947619d1e026",
+        "email": "Arely.Marquardt63@yahoo.com",
+        "firstName": "Allene",
+        "lastName": "Schumm",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/224.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "194e8c3c-8353-48d4-a0c2-055f485daa96",
+        "email": "Vicky_Nienow@gmail.com",
+        "firstName": "Ernie",
+        "lastName": "Zboncak",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/114.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "cacc40e3-a2ed-4f11-b47a-2abd2d6f86fd",
+        "email": "Jena_Ledner68@yahoo.com",
+        "firstName": "Cortney",
+        "lastName": "Kub-Cartwright",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/386.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "cc6d8b6e-8e12-4d26-babb-16e201d39e8b",
+        "email": "Guadalupe.Kiehn@yahoo.com",
+        "firstName": "Darrin",
+        "lastName": "Haag",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98915014",
+        "tenantId": null
+      },
+      {
+        "reference": "76924ce8-e12d-4b50-8cc8-a97eb13d7352",
+        "email": "Estefania_Hartmann@yahoo.com",
+        "firstName": "Marcelina",
+        "lastName": "Haley",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1186.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "order": [
+      {
+        "id": "3b828345-688f-4c67-befb-95309dfb9761",
+        "order_status": "Pending",
+        "pizza_type": "Margherita",
+        "quantity": 45515,
+        "created_at": "2023-09-11T01:10:43.614Z",
+        "updated_at": "2023-09-10T21:51:21.154Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "241dc362-cf97-4121-a22c-89317c95f8e9",
+        "order_status": "In Progress",
+        "pizza_type": "Pepperoni",
+        "quantity": 42131,
+        "created_at": "2023-09-11T02:28:49.415Z",
+        "updated_at": "2023-09-10T07:09:22.592Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "b3ee5430-3009-40bf-a3c7-5575b5757eb4",
+        "order_status": "Out for Delivery",
+        "pizza_type": "Vegetarian",
+        "quantity": 8172,
+        "created_at": "2023-09-10T19:48:14.885Z",
+        "updated_at": "2023-09-11T05:17:55.230Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "a99698ff-b0c9-45ea-96de-a2ccd5887606",
+        "order_status": "Delivered",
+        "pizza_type": "Hawaiian",
+        "quantity": 79648,
+        "created_at": "2023-09-10T19:03:42.143Z",
+        "updated_at": "2023-09-11T05:14:18.358Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "2f2bf55b-7255-47cf-a12b-f166068c1435",
+        "order_status": "Cancelled",
+        "pizza_type": "Supreme",
+        "quantity": 89588,
+        "created_at": "2023-09-11T04:50:25.048Z",
+        "updated_at": "2023-09-10T10:46:52.930Z",
+        "customer_id": "user_entity_pk"
+      }
+    ],
+    "offer": [
+      {
+        "id": "c898cbe0-aef1-4763-90a1-8f7fbe898704",
+        "offer_name": "Weekend Special",
+        "offer_code": "WEEKEND20",
+        "offer_description": "Get 20% off on weekends",
+        "start_date": "2023-09-10T23:15:38.864Z",
+        "end_date": "2023-09-10T12:21:15.594Z",
+        "created_at": "2023-09-10T16:15:56.928Z",
+        "updated_at": "2023-09-10T16:28:04.223Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7b430cc6-576a-4664-a675-7d4c137dc1fd",
+        "offer_name": "Lunch Combo",
+        "offer_code": "LUNCHCOMBO10",
+        "offer_description": "Combo meal for a discounted price",
+        "start_date": "2023-09-10T08:40:59.148Z",
+        "end_date": "2023-09-10T14:19:14.919Z",
+        "created_at": "2023-09-10T22:18:40.093Z",
+        "updated_at": "2023-09-10T11:44:14.760Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3a025878-a1ad-495f-bd39-d6ef6d7e93cc",
+        "offer_name": "Family Deal",
+        "offer_code": "FAMILYDEAL15",
+        "offer_description": "Special deal for families",
+        "start_date": "2023-09-11T01:44:46.460Z",
+        "end_date": "2023-09-11T03:44:38.771Z",
+        "created_at": "2023-09-10T21:53:35.433Z",
+        "updated_at": "2023-09-10T09:10:05.793Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fa9e806a-1f5d-4c72-a302-a38417dd537e",
+        "offer_name": "Student Discount",
+        "offer_code": "STUDENT20",
+        "offer_description": "Exclusive discount for students",
+        "start_date": "2023-09-10T10:23:23.424Z",
+        "end_date": "2023-09-10T11:31:36.257Z",
+        "created_at": "2023-09-10T10:47:25.961Z",
+        "updated_at": "2023-09-10T11:47:30.180Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7c18fb1c-b6d1-4728-96dd-75430be50de0",
+        "offer_name": "Happy Hour",
+        "offer_code": "HAPPYHOUR25",
+        "offer_description": "25% off during happy hour",
+        "start_date": "2023-09-10T18:01:19.635Z",
+        "end_date": "2023-09-10T10:07:47.238Z",
+        "created_at": "2023-09-10T14:30:14.377Z",
+        "updated_at": "2023-09-10T14:09:55.221Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "meal": [
+      {
+        "id": "4dfbb900-af22-4f38-aec4-edee9060b56e",
+        "meal_name": "Chicken Alfredo",
+        "meal_description": "Creamy pasta with grilled chicken",
+        "price": 90487,
+        "created_at": "2023-09-10T23:50:41.890Z",
+        "updated_at": "2023-09-10T06:26:28.578Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e8622ccc-b55a-4fbd-834f-1df05cefa326",
+        "meal_name": "Beef Stir Fry",
+        "meal_description": "Savory beef with mixed vegetables",
+        "price": 22978,
+        "created_at": "2023-09-10T13:27:10.816Z",
+        "updated_at": "2023-09-11T02:44:05.471Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8fbf7397-84e0-4b74-aec4-cb81081ca214",
+        "meal_name": "Vegetable Curry",
+        "meal_description": "Spicy curry with fresh vegetables",
+        "price": 98668,
+        "created_at": "2023-09-10T20:23:29.334Z",
+        "updated_at": "2023-09-11T01:28:32.099Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e3745503-265b-4853-bd0d-8da7a28b3918",
+        "meal_name": "Salmon Teriyaki",
+        "meal_description": "Grilled salmon in teriyaki sauce",
+        "price": 8720,
+        "created_at": "2023-09-10T21:09:27.619Z",
+        "updated_at": "2023-09-11T01:32:59.890Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e072ac77-02b4-4f08-9370-29e70ab6cd4d",
+        "meal_name": "Pork Chops",
+        "meal_description": "Juicy pork chops with mashed potatoes",
+        "price": 91892,
+        "created_at": "2023-09-11T00:20:02.884Z",
+        "updated_at": "2023-09-10T23:03:43.052Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "delivery": [
+      {
+        "id": "f675a5f7-a22a-4f60-abd5-042d1dd90b26",
+        "delivery_status": "Pending",
+        "delivery_address": "123 Main St, Cityville",
+        "created_at": "2023-09-11T04:50:42.797Z",
+        "updated_at": "2023-09-10T14:10:15.297Z",
+        "driver_id": "user_entity_pk",
+        "order_id": "2f2bf55b-7255-47cf-a12b-f166068c1435"
+      },
+      {
+        "id": "d56eb3d1-fe17-480a-8dca-a03b3745515e",
+        "delivery_status": "In Transit",
+        "delivery_address": "456 Elm St, Townsville",
+        "created_at": "2023-09-10T12:29:27.204Z",
+        "updated_at": "2023-09-10T17:03:05.808Z",
+        "driver_id": "user_entity_pk",
+        "order_id": "a99698ff-b0c9-45ea-96de-a2ccd5887606"
+      },
+      {
+        "id": "10281819-1c04-4466-83d1-e5f2632b7af7",
+        "delivery_status": "Out for Delivery",
+        "delivery_address": "789 Oak St, Villageland",
+        "created_at": "2023-09-10T15:47:54.858Z",
+        "updated_at": "2023-09-10T23:53:32.993Z",
+        "driver_id": "user_entity_pk",
+        "order_id": "2f2bf55b-7255-47cf-a12b-f166068c1435"
+      },
+      {
+        "id": "580b6059-e58a-442b-bd1c-3bc261dd5f18",
+        "delivery_status": "Delivered",
+        "delivery_address": "321 Maple St, Hamletown",
+        "created_at": "2023-09-10T09:37:33.368Z",
+        "updated_at": "2023-09-11T01:46:56.870Z",
+        "driver_id": "user_entity_pk",
+        "order_id": "3b828345-688f-4c67-befb-95309dfb9761"
+      },
+      {
+        "id": "9bf2d72e-928f-4575-9ffe-a5b790dbdde0",
+        "delivery_status": "Cancelled",
+        "delivery_address": "654 Pine St, Boroughville",
+        "created_at": "2023-09-10T21:57:57.070Z",
+        "updated_at": "2023-09-11T00:01:36.802Z",
+        "driver_id": "user_entity_pk",
+        "order_id": "3b828345-688f-4c67-befb-95309dfb9761"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "6c25c6ef-cd94-44d3-b7e6-b7f4897f1d6c",
+        "email": "Scotty_Funk-Kemmer@hotmail.com",
+        "firstName": "Zander",
+        "lastName": "Bergstrom",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/685.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a2adc5cd-ac8a-440e-bba9-abd1a1c4a91c",
+        "email": "Tia65@yahoo.com",
+        "firstName": "Athena",
+        "lastName": "Koch",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16694020",
+        "tenantId": null
+      },
+      {
+        "reference": "04c26f15-888f-4304-9753-f2a45c9ebb15",
+        "email": "Delaney.Jenkins@gmail.com",
+        "firstName": "Emile",
+        "lastName": "Streich",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/78865198",
+        "tenantId": null
+      },
+      {
+        "reference": "5d652a6c-2cf1-4853-8751-73f5bc9dbfca",
+        "email": "Clara41@gmail.com",
+        "firstName": "Gonzalo",
+        "lastName": "Fay",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/655.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f4105382-16d4-4d07-b20e-7fef6bec3c06",
+        "email": "Ted66@yahoo.com",
+        "firstName": "Jana",
+        "lastName": "Jast",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/122.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "order": [
+      {
+        "id": "5b905e32-2bf8-4266-a02e-327c636211f6",
+        "order_status": "Pending",
+        "pizza_type": "Margherita",
+        "quantity": 77059,
+        "created_at": "2023-09-11T00:49:48.503Z",
+        "updated_at": "2023-09-11T01:31:42.540Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "0f18808a-a4b1-4249-9c62-d2d9b402deee",
+        "order_status": "In Progress",
+        "pizza_type": "Pepperoni",
+        "quantity": 30291,
+        "created_at": "2023-09-11T06:19:01.954Z",
+        "updated_at": "2023-09-10T10:39:18.594Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "fbbf094d-2dc0-41ab-a371-7a6fe0600a55",
+        "order_status": "Ready for Delivery",
+        "pizza_type": "Hawaiian",
+        "quantity": 93208,
+        "created_at": "2023-09-10T06:38:45.074Z",
+        "updated_at": "2023-09-10T07:02:55.059Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "42236b3f-dce5-496f-b470-5d5db6b603d2",
+        "order_status": "Delivered",
+        "pizza_type": "Supreme",
+        "quantity": 76838,
+        "created_at": "2023-09-10T09:10:51.800Z",
+        "updated_at": "2023-09-10T16:05:49.608Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "ac2333d6-ae4b-486a-a55d-a506dd63d677",
+        "order_status": "Cancelled",
+        "pizza_type": "Vegetarian",
+        "quantity": 89891,
+        "created_at": "2023-09-10T23:43:12.986Z",
+        "updated_at": "2023-09-10T11:40:44.204Z",
+        "customer_id": "user_entity_pk"
+      }
+    ],
+    "offer": [
+      {
+        "id": "b283b518-3799-4887-820f-a2f7f52e111a",
+        "offer_name": "Weekend Special",
+        "offer_code": "WEEKEND25",
+        "offer_description": "25% off on all orders this weekend",
+        "start_date": "2023-09-10T09:36:20.705Z",
+        "end_date": "2023-09-10T13:57:47.092Z",
+        "created_at": "2023-09-10T19:54:42.653Z",
+        "updated_at": "2023-09-10T11:10:20.035Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "47a99ab8-5f36-4dee-bdad-c1a308673a3b",
+        "offer_name": "Family Combo",
+        "offer_code": "FAMILY10",
+        "offer_description": "Get 10% off on family combos",
+        "start_date": "2023-09-10T08:54:08.460Z",
+        "end_date": "2023-09-10T10:06:47.084Z",
+        "created_at": "2023-09-10T14:46:31.652Z",
+        "updated_at": "2023-09-10T14:01:17.355Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2e028bfc-540d-48b7-85e7-588228c8623b",
+        "offer_name": "Lunch Deal",
+        "offer_code": "LUNCHDEAL15",
+        "offer_description": "15% off on lunch orders",
+        "start_date": "2023-09-10T16:39:12.611Z",
+        "end_date": "2023-09-10T23:17:09.306Z",
+        "created_at": "2023-09-11T02:22:07.739Z",
+        "updated_at": "2023-09-10T11:54:26.124Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bc4dfc52-5a39-4588-b111-e922a3c7aa5a",
+        "offer_name": "Student Discount",
+        "offer_code": "STUDENT20",
+        "offer_description": "20% off for students",
+        "start_date": "2023-09-10T13:27:24.937Z",
+        "end_date": "2023-09-10T22:06:18.665Z",
+        "created_at": "2023-09-10T22:30:00.537Z",
+        "updated_at": "2023-09-11T05:07:38.374Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5268bad3-ddda-4afd-ad95-4bdd4827fe49",
+        "offer_name": "Happy Hour",
+        "offer_code": "HAPPYHOUR50",
+        "offer_description": "50% off during happy hour",
+        "start_date": "2023-09-10T14:49:53.106Z",
+        "end_date": "2023-09-10T19:09:18.123Z",
+        "created_at": "2023-09-11T06:01:16.951Z",
+        "updated_at": "2023-09-11T03:11:36.462Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "meal": [
+      {
+        "id": "9701e8b1-4dc3-42e2-8634-f5da13dc529a",
+        "meal_name": "Grilled Chicken with Rice",
+        "meal_description": "Tender grilled chicken served with aromatic rice",
+        "price": 73164,
+        "created_at": "2023-09-11T01:05:25.204Z",
+        "updated_at": "2023-09-10T18:35:28.358Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3f6b6c02-a9a4-4399-a137-3260aad026bd",
+        "meal_name": "Spaghetti Bolognese",
+        "meal_description": "Classic Italian pasta with rich meat sauce",
+        "price": 36018,
+        "created_at": "2023-09-10T14:15:43.500Z",
+        "updated_at": "2023-09-10T18:59:41.014Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0a2c2155-02c9-42f3-9633-149fe4402585",
+        "meal_name": "Salmon Teriyaki",
+        "meal_description": "Fresh salmon glazed with teriyaki sauce",
+        "price": 54157,
+        "created_at": "2023-09-10T23:19:25.911Z",
+        "updated_at": "2023-09-10T12:07:31.396Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "29a8761c-ff6b-4aef-a934-d969874ece06",
+        "meal_name": "Beef Stir-Fry",
+        "meal_description": "Savory beef stir-fried with vegetables",
+        "price": 66661,
+        "created_at": "2023-09-10T14:17:20.865Z",
+        "updated_at": "2023-09-10T09:16:00.203Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1abf9e78-7ff7-4434-b392-d18170250566",
+        "meal_name": "Vegetable Curry",
+        "meal_description": "Flavorful vegetable curry with fragrant spices",
+        "price": 64168,
+        "created_at": "2023-09-10T15:17:30.451Z",
+        "updated_at": "2023-09-10T16:27:50.165Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "delivery": [
+      {
+        "id": "6fce196d-c5b9-4abd-8eff-140cb782af47",
+        "delivery_status": "Out for Delivery",
+        "delivery_address": "123 Main St, Cityville",
+        "created_at": "2023-09-10T18:37:19.970Z",
+        "updated_at": "2023-09-10T09:28:07.383Z",
+        "driver_id": "user_entity_pk",
+        "order_id": "0f18808a-a4b1-4249-9c62-d2d9b402deee"
+      },
+      {
+        "id": "8822dd2f-820a-4cd4-bcad-db1f2e2a52c6",
+        "delivery_status": "Delayed",
+        "delivery_address": "456 Elm St, Townsville",
+        "created_at": "2023-09-10T10:32:50.426Z",
+        "updated_at": "2023-09-11T00:56:36.301Z",
+        "driver_id": "user_entity_pk",
+        "order_id": "0f18808a-a4b1-4249-9c62-d2d9b402deee"
+      },
+      {
+        "id": "530dc010-7580-43da-8745-6605bb8ccc30",
+        "delivery_status": "Delivered",
+        "delivery_address": "789 Oak St, Villagetown",
+        "created_at": "2023-09-10T21:03:00.143Z",
+        "updated_at": "2023-09-10T12:16:01.035Z",
+        "driver_id": "user_entity_pk",
+        "order_id": "fbbf094d-2dc0-41ab-a371-7a6fe0600a55"
+      },
+      {
+        "id": "c83695d2-79e3-4711-aeb6-a3bc8afaf303",
+        "delivery_status": "Returned",
+        "delivery_address": "321 Pine St, Hamletville",
+        "created_at": "2023-09-10T17:15:27.917Z",
+        "updated_at": "2023-09-11T03:19:36.872Z",
+        "driver_id": "user_entity_pk",
+        "order_id": "5b905e32-2bf8-4266-a02e-327c636211f6"
+      },
+      {
+        "id": "2075e3e6-4c24-47b5-b598-eaec2374cdc3",
+        "delivery_status": "Cancelled",
+        "delivery_address": "654 Maple St, Countryside",
+        "created_at": "2023-09-10T21:02:25.847Z",
+        "updated_at": "2023-09-11T04:23:29.853Z",
+        "driver_id": "user_entity_pk",
+        "order_id": "ac2333d6-ae4b-486a-a55d-a506dd63d677"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "3571af44-ee94-499a-9138-43abf2b138fc",
+        "email": "Philip.Hermann69@yahoo.com",
+        "firstName": "Joan",
+        "lastName": "Yost",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/896.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e2d13f51-abdd-4757-ad6c-28550bc60d3e",
+        "email": "Adriel_Bosco47@yahoo.com",
+        "firstName": "Jovanny",
+        "lastName": "Koepp",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/237.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "fe037616-a528-46f1-af81-8fe2435081a7",
+        "email": "Riley_Swift@gmail.com",
+        "firstName": "Markus",
+        "lastName": "Douglas",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/55872039",
+        "tenantId": null
+      },
+      {
+        "reference": "0ed2a4f8-4cd7-496a-a0d6-810dade10771",
+        "email": "Santina_Lockman@hotmail.com",
+        "firstName": "Alfredo",
+        "lastName": "Heathcote",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19320899",
+        "tenantId": null
+      },
+      {
+        "reference": "3544e728-4f5c-4bf1-8129-a29425651e80",
+        "email": "Bessie.Kreiger57@gmail.com",
+        "firstName": "Zoe",
+        "lastName": "Klocko",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/44622555",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "order": [
+      {
+        "id": "3f10de20-11fb-4452-bdf5-a70105eb9dcd",
+        "order_status": "Pending",
+        "pizza_type": "Margherita",
+        "quantity": 17104,
+        "created_at": "2023-09-10T11:53:50.504Z",
+        "updated_at": "2023-09-10T07:47:02.365Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "14b36345-b387-48a3-9a56-73f24d8b75c6",
+        "order_status": "In Progress",
+        "pizza_type": "Pepperoni",
+        "quantity": 41871,
+        "created_at": "2023-09-11T02:49:50.163Z",
+        "updated_at": "2023-09-10T09:13:05.037Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "e06df507-5304-435d-ba1e-81f37ccae90b",
+        "order_status": "Ready for Delivery",
+        "pizza_type": "Vegetarian",
+        "quantity": 54550,
+        "created_at": "2023-09-10T23:55:35.588Z",
+        "updated_at": "2023-09-10T14:27:20.755Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "1fca8186-f898-418b-b259-ddc94eb7ce03",
+        "order_status": "Delivered",
+        "pizza_type": "Hawaiian",
+        "quantity": 23973,
+        "created_at": "2023-09-10T23:18:50.874Z",
+        "updated_at": "2023-09-10T09:23:27.061Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "700e9bd5-5474-40c3-9f6f-eb6443fc5428",
+        "order_status": "Cancelled",
+        "pizza_type": "BBQ Chicken",
+        "quantity": 53035,
+        "created_at": "2023-09-11T01:27:03.507Z",
+        "updated_at": "2023-09-11T01:21:18.499Z",
+        "customer_id": "user_entity_pk"
+      }
+    ],
+    "offer": [
+      {
+        "id": "1967e2ba-247c-4bd7-82e8-b1aad99fbd2b",
+        "offer_name": "Weekend Special",
+        "offer_code": "WEEKEND20",
+        "offer_description": "Get 20% off on weekends",
+        "start_date": "2023-09-11T02:13:35.495Z",
+        "end_date": "2023-09-10T10:49:25.538Z",
+        "created_at": "2023-09-10T14:13:50.612Z",
+        "updated_at": "2023-09-10T15:47:49.955Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "67644eeb-8434-4c16-8fe0-fe9d304d7a8a",
+        "offer_name": "Lunch Combo",
+        "offer_code": "LUNCHCOMBO15",
+        "offer_description": "Combo meal for lunch at a discounted price",
+        "start_date": "2023-09-10T22:03:59.508Z",
+        "end_date": "2023-09-11T01:37:26.749Z",
+        "created_at": "2023-09-10T18:57:16.146Z",
+        "updated_at": "2023-09-10T07:39:02.502Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "41c2fdb6-38ab-4bc1-a8af-c59ba3879101",
+        "offer_name": "Family Deal",
+        "offer_code": "FAMILYDEAL25",
+        "offer_description": "Special deal for families",
+        "start_date": "2023-09-10T21:45:23.097Z",
+        "end_date": "2023-09-10T12:55:01.752Z",
+        "created_at": "2023-09-10T18:09:19.048Z",
+        "updated_at": "2023-09-10T15:29:17.797Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1d566f5b-2f32-4e84-a3c3-eee99161aa6e",
+        "offer_name": "Student Discount",
+        "offer_code": "STUDENT10",
+        "offer_description": "10% off for students",
+        "start_date": "2023-09-10T12:31:59.025Z",
+        "end_date": "2023-09-10T11:21:33.248Z",
+        "created_at": "2023-09-10T14:57:44.276Z",
+        "updated_at": "2023-09-11T01:46:25.381Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b6a98dd5-b00c-40d0-958c-ea1cb73a42a5",
+        "offer_name": "Happy Hour",
+        "offer_code": "HAPPYHOUR50",
+        "offer_description": "50% off during happy hour",
+        "start_date": "2023-09-10T19:14:51.487Z",
+        "end_date": "2023-09-11T05:09:01.068Z",
+        "created_at": "2023-09-10T16:03:09.944Z",
+        "updated_at": "2023-09-10T17:37:28.687Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "meal": [
+      {
+        "id": "2cccaf72-a2e2-44df-bdac-a7d4eba88fe0",
+        "meal_name": "Chicken Alfredo",
+        "meal_description": "Creamy chicken pasta with garlic bread",
+        "price": 31540,
+        "created_at": "2023-09-10T17:37:18.898Z",
+        "updated_at": "2023-09-10T21:44:04.086Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "326f1b15-16ab-40f3-9f24-5103066d2a61",
+        "meal_name": "Beef Stir Fry",
+        "meal_description": "Tender beef stir-fried with vegetables",
+        "price": 37334,
+        "created_at": "2023-09-11T01:06:42.310Z",
+        "updated_at": "2023-09-10T11:11:04.112Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b74748cb-31f9-4577-ad44-58d256fa6a82",
+        "meal_name": "Vegetable Curry",
+        "meal_description": "Spicy curry with mixed vegetables",
+        "price": 33534,
+        "created_at": "2023-09-10T09:22:45.363Z",
+        "updated_at": "2023-09-10T16:43:36.322Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b0f7349d-13ba-49e8-88d0-7dcf2131f42e",
+        "meal_name": "Salmon Teriyaki",
+        "meal_description": "Grilled salmon with teriyaki sauce",
+        "price": 11536,
+        "created_at": "2023-09-10T08:11:58.368Z",
+        "updated_at": "2023-09-10T11:35:22.601Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cee5e9b7-3a8d-4d3c-a91b-3f3a2e08a840",
+        "meal_name": "Pasta Primavera",
+        "meal_description": "Fresh pasta with seasonal vegetables",
+        "price": 80583,
+        "created_at": "2023-09-11T01:20:10.491Z",
+        "updated_at": "2023-09-11T05:19:31.893Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "delivery": [
+      {
+        "id": "a721c008-fb78-4d02-a643-413072a50f70",
+        "delivery_status": "Out for Delivery",
+        "delivery_address": "123 Main St, Cityville",
+        "created_at": "2023-09-10T17:07:49.488Z",
+        "updated_at": "2023-09-10T14:40:35.563Z",
+        "driver_id": "user_entity_pk",
+        "order_id": "e06df507-5304-435d-ba1e-81f37ccae90b"
+      },
+      {
+        "id": "85fccd86-b7ba-4db5-82b8-5ea9bb5c8942",
+        "delivery_status": "Delayed",
+        "delivery_address": "456 Elm St, Townsville",
+        "created_at": "2023-09-11T00:00:13.349Z",
+        "updated_at": "2023-09-10T09:27:18.124Z",
+        "driver_id": "user_entity_pk",
+        "order_id": "e06df507-5304-435d-ba1e-81f37ccae90b"
+      },
+      {
+        "id": "5bbe64bd-f56d-4a85-be80-6580fdaec21e",
+        "delivery_status": "Delivered",
+        "delivery_address": "789 Oak St, Villageland",
+        "created_at": "2023-09-11T03:32:51.680Z",
+        "updated_at": "2023-09-11T01:26:44.723Z",
+        "driver_id": "user_entity_pk",
+        "order_id": "e06df507-5304-435d-ba1e-81f37ccae90b"
+      },
+      {
+        "id": "04de5910-4d3f-4b5f-b323-15c05d31acd9",
+        "delivery_status": "Returned",
+        "delivery_address": "321 Pine St, Hamletown",
+        "created_at": "2023-09-11T05:12:11.467Z",
+        "updated_at": "2023-09-10T11:10:21.874Z",
+        "driver_id": "user_entity_pk",
+        "order_id": "14b36345-b387-48a3-9a56-73f24d8b75c6"
+      },
+      {
+        "id": "1a658b14-a041-4f52-87a4-267955fe0bb2",
+        "delivery_status": "Cancelled",
+        "delivery_address": "654 Maple St, Boroughville",
+        "created_at": "2023-09-10T07:11:35.305Z",
+        "updated_at": "2023-09-10T20:06:55.094Z",
+        "driver_id": "user_entity_pk",
+        "order_id": "700e9bd5-5474-40c3-9f6f-eb6443fc5428"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "c969606c-215f-4670-88c5-9f9f18a84220",
+        "email": "Leta_McDermott68@yahoo.com",
+        "firstName": "Orlo",
+        "lastName": "Miller",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/889.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a756adaa-06fd-438b-af03-69869ff37372",
+        "email": "Tommie.Lemke@gmail.com",
+        "firstName": "Vilma",
+        "lastName": "Wiegand",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/76582443",
+        "tenantId": null
+      },
+      {
+        "reference": "bb36762e-718a-4914-b3b4-0f14a30d3d87",
+        "email": "Salvador_Barton@gmail.com",
+        "firstName": "Oran",
+        "lastName": "Rowe",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/608.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "23f4a934-f62e-4120-a79a-8e79ed25b2e2",
+        "email": "Scot4@gmail.com",
+        "firstName": "Gladyce",
+        "lastName": "Hoppe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/33081630",
+        "tenantId": null
+      },
+      {
+        "reference": "c9970a76-9b67-453c-bd90-24243f78d1a2",
+        "email": "Stacey8@hotmail.com",
+        "firstName": "Zaria",
+        "lastName": "Upton",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1225.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "order": [
+      {
+        "id": "2dbb8ac1-94ea-4934-96d8-0b36fb6ba906",
+        "order_status": "Pending",
+        "pizza_type": "Margherita",
+        "quantity": 5213,
+        "created_at": "2023-09-11T01:05:01.083Z",
+        "updated_at": "2023-09-10T17:51:36.031Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "dfba6864-ba14-4eff-ba0f-dc864aeb0bff",
+        "order_status": "Processing",
+        "pizza_type": "Pepperoni",
+        "quantity": 19186,
+        "created_at": "2023-09-10T18:29:31.211Z",
+        "updated_at": "2023-09-10T08:12:46.785Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "f54b9165-065c-4add-9a03-7209534a1b33",
+        "order_status": "Out for Delivery",
+        "pizza_type": "Vegetarian",
+        "quantity": 9008,
+        "created_at": "2023-09-10T13:26:33.827Z",
+        "updated_at": "2023-09-11T02:25:20.288Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "68ab88a8-257a-4d3c-b7bd-affe2c6c6db9",
+        "order_status": "Delivered",
+        "pizza_type": "Hawaiian",
+        "quantity": 21671,
+        "created_at": "2023-09-10T18:08:48.846Z",
+        "updated_at": "2023-09-11T06:14:20.196Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "829fa00a-f22f-489a-ab14-497b7bfb3c8f",
+        "order_status": "Cancelled",
+        "pizza_type": "BBQ Chicken",
+        "quantity": 47078,
+        "created_at": "2023-09-10T10:32:04.570Z",
+        "updated_at": "2023-09-10T21:16:28.507Z",
+        "customer_id": "user_entity_pk"
+      }
+    ],
+    "offer": [
+      {
+        "id": "21c062e4-35c7-46a4-a43d-c5833f9f5126",
+        "offer_name": "Weekend Special",
+        "offer_code": "WEEKEND20",
+        "offer_description": "Get 20% off on weekends",
+        "start_date": "2023-09-11T01:43:37.242Z",
+        "end_date": "2023-09-11T05:51:40.160Z",
+        "created_at": "2023-09-10T17:17:04.912Z",
+        "updated_at": "2023-09-10T10:46:35.278Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "26e24c12-69d0-47fe-8705-e2218a6ffae1",
+        "offer_name": "Family Combo",
+        "offer_code": "FAMILYCOMBO10",
+        "offer_description": "Special combo for the whole family",
+        "start_date": "2023-09-10T23:35:10.053Z",
+        "end_date": "2023-09-11T03:17:17.753Z",
+        "created_at": "2023-09-11T01:34:10.603Z",
+        "updated_at": "2023-09-10T12:42:30.318Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0c434630-183e-4ca7-b5e4-112e2a0ca5c4",
+        "offer_name": "Lunch Deal",
+        "offer_code": "LUNCHDEAL15",
+        "offer_description": "Great deal for lunchtime",
+        "start_date": "2023-09-10T09:50:05.297Z",
+        "end_date": "2023-09-10T11:02:25.002Z",
+        "created_at": "2023-09-10T22:28:48.854Z",
+        "updated_at": "2023-09-10T19:21:06.259Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1367577a-e6ff-482e-8e41-050f9eb5c629",
+        "offer_name": "Student Discount",
+        "offer_code": "STUDENTDISC20",
+        "offer_description": "Exclusive discount for students",
+        "start_date": "2023-09-11T05:27:38.033Z",
+        "end_date": "2023-09-11T00:14:24.828Z",
+        "created_at": "2023-09-10T09:37:54.369Z",
+        "updated_at": "2023-09-11T03:44:07.016Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e806214a-c98c-49af-8a6f-7c4c6821b369",
+        "offer_name": "Happy Hour",
+        "offer_code": "HAPPYHOUR25",
+        "offer_description": "Enjoy discounted prices during happy hour",
+        "start_date": "2023-09-10T13:28:00.196Z",
+        "end_date": "2023-09-10T10:13:38.113Z",
+        "created_at": "2023-09-10T22:31:31.441Z",
+        "updated_at": "2023-09-10T18:47:31.869Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "meal": [
+      {
+        "id": "874475c2-74e4-4e7e-bc04-9c57602f68da",
+        "meal_name": "Classic Burger",
+        "meal_description": "Juicy beef patty with all the fixings",
+        "price": 97752,
+        "created_at": "2023-09-10T19:25:40.978Z",
+        "updated_at": "2023-09-10T10:59:29.544Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f3f4f225-7e46-4a31-90dc-921c469bf250",
+        "meal_name": "Spicy Tacos",
+        "meal_description": "Tortillas filled with flavorful spices",
+        "price": 31093,
+        "created_at": "2023-09-11T04:14:43.760Z",
+        "updated_at": "2023-09-10T09:33:05.278Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "761fe2f6-2646-4e4b-b014-3cc9d8f09531",
+        "meal_name": "Creamy Pasta",
+        "meal_description": "Rich and creamy pasta sauce",
+        "price": 68884,
+        "created_at": "2023-09-10T20:34:25.621Z",
+        "updated_at": "2023-09-10T15:14:53.075Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7e34eb75-581c-423b-a166-3193b393251b",
+        "meal_name": "Grilled Salmon",
+        "meal_description": "Freshly grilled salmon fillet",
+        "price": 28703,
+        "created_at": "2023-09-10T20:36:24.030Z",
+        "updated_at": "2023-09-10T20:54:13.730Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e7a9300d-87af-4035-9c3c-7aa5b0b60c7e",
+        "meal_name": "Mushroom Risotto",
+        "meal_description": "Creamy and flavorful mushroom risotto",
+        "price": 29069,
+        "created_at": "2023-09-10T14:00:23.728Z",
+        "updated_at": "2023-09-10T21:41:53.155Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "delivery": [
+      {
+        "id": "cbc1b6dc-c884-45d0-9019-fa5c690f6693",
+        "delivery_status": "In Transit",
+        "delivery_address": "123 Main Street",
+        "created_at": "2023-09-10T07:02:53.491Z",
+        "updated_at": "2023-09-10T22:10:48.518Z",
+        "driver_id": "user_entity_pk",
+        "order_id": "829fa00a-f22f-489a-ab14-497b7bfb3c8f"
+      },
+      {
+        "id": "7948f5a5-e7bc-4a37-b889-743e2577632a",
+        "delivery_status": "Out for Delivery",
+        "delivery_address": "456 Elm Avenue",
+        "created_at": "2023-09-11T00:39:57.298Z",
+        "updated_at": "2023-09-11T00:22:28.579Z",
+        "driver_id": "user_entity_pk",
+        "order_id": "68ab88a8-257a-4d3c-b7bd-affe2c6c6db9"
+      },
+      {
+        "id": "53bdd6b2-e7ff-4bb8-aeab-c60af51cd280",
+        "delivery_status": "Delivered",
+        "delivery_address": "789 Oak Lane",
+        "created_at": "2023-09-10T13:20:10.206Z",
+        "updated_at": "2023-09-11T05:43:28.100Z",
+        "driver_id": "user_entity_pk",
+        "order_id": "dfba6864-ba14-4eff-ba0f-dc864aeb0bff"
+      },
+      {
+        "id": "3a1fedeb-a2d5-4589-80d6-e8c31d43875b",
+        "delivery_status": "Delayed",
+        "delivery_address": "987 Pine Road",
+        "created_at": "2023-09-11T03:44:13.430Z",
+        "updated_at": "2023-09-11T02:16:43.347Z",
+        "driver_id": "user_entity_pk",
+        "order_id": "dfba6864-ba14-4eff-ba0f-dc864aeb0bff"
+      },
+      {
+        "id": "8442d4b2-97fd-4c3f-97a1-45ef517d67d6",
+        "delivery_status": "Cancelled",
+        "delivery_address": "654 Maple Court",
+        "created_at": "2023-09-10T12:16:11.765Z",
+        "updated_at": "2023-09-10T07:06:39.417Z",
+        "driver_id": "user_entity_pk",
+        "order_id": "2dbb8ac1-94ea-4934-96d8-0b36fb6ba906"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "5dfab8e2-9f41-4560-9ad4-feaa5b236f93",
+        "email": "Raina29@gmail.com",
+        "firstName": "Jailyn",
+        "lastName": "Runte",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/570.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "278ba80d-cd7a-48b4-9591-1be36702e4e8",
+        "email": "Allene_Bauch99@hotmail.com",
+        "firstName": "Zachariah",
+        "lastName": "Kautzer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1222.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c3001ddd-94cc-4ad4-a55c-357a82ab0907",
+        "email": "Madeline_Jacobson@hotmail.com",
+        "firstName": "Terrell",
+        "lastName": "Quigley",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/38556821",
+        "tenantId": null
+      },
+      {
+        "reference": "c832a8e2-ef25-4b70-8f11-44eafd8a7f70",
+        "email": "Vivien48@hotmail.com",
+        "firstName": "Israel",
+        "lastName": "Boyle",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/59887493",
+        "tenantId": null
+      },
+      {
+        "reference": "deaac39b-4abb-47ae-8a5c-cda48aea9724",
+        "email": "Dane_Emard@gmail.com",
+        "firstName": "Aiden",
+        "lastName": "Erdman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/25778772",
+        "tenantId": null
+      }
+    ]
+  }
+]
